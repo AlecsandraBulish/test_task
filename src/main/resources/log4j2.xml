@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="debug" >
+
+    <Appenders>
+        <Console name="stdout" target="SYSTEM_OUT">
+            <PatternLayout pattern="%m%n"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Logger name="ru.bulish.spring.test_task.entity.EmployeeHireLogger" level="info" additivity="false">
+            <AppenderRef ref="stdout" />
+        </Logger>
+        <Root level="info" includeLocation="false">
+            <AppenderRef ref="stdout" />
+        </Root>
+    </Loggers>
+
+</Configuration>
