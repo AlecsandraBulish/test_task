@@ -10,9 +10,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.view;
 
-//@RunWith(SpringRunner.class)
-//@WebMvcTest(MainController.class)
-//@ContextConfiguration(locations = "classpath:test-context.xml")
+
 @SpringBootTest
 @AutoConfigureMockMvc
 class MainControllerTest {
